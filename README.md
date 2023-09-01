@@ -9,7 +9,7 @@ Overview of the analysis: The purpose of this analysis is to create a binary cla
 ### Data Preprocessing
 
 #### What variable(s) are the target(s) for your model?
-- Target variable is the 'IS_SUCCESSFUL' data
+Target variable is the 'IS_SUCCESSFUL' data.
 
 #### What variable(s) are the features for your model?
 - Feature variables are the data from the other columns in the dataframe, such as:
@@ -24,7 +24,7 @@ Overview of the analysis: The purpose of this analysis is to create a binary cla
     - ASK_AMT—Funding amount requested
 
 #### What variable(s) should be removed from the input data because they are neither targets nor features?
-- The 'EIN' and 'NAME' columns were removed
+The 'EIN' and 'NAME' columns were removed.
 
 ### Compiling, Training, and Evaluating the Model
 
